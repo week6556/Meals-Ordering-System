@@ -1,0 +1,5 @@
+Welcome to Meals Ordering System.
+
+This application is created by Wei Fan.
+
+Front-end is based on ReactJS.
