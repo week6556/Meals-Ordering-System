@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,cAAc;CAM9B;;AAXD,AAOE,KAPG,CAOH,EAAE,CAAC;EACD,MAAM,EAAE,aAAa;CACtB;;AAIH,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,OAAO;EACnB,WAAW,EAAE,IAAI;EACjB,KAAK,EChBW,OAAO;EDiBvB,SAAS,EAAE,OAAO;CACnB",
+    "sources": [
+        "MealItem.module.scss",
+        "../../../styles/_variables.scss"
+    ],
+    "names": [],
+    "file": "MealItem.module.css"
+}

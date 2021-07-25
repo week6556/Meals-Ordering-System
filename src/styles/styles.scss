@@ -1,0 +1,33 @@
+@import'./variables';
+
+@mixin cancelButton {
+  color: $btnTextColor;
+  border: 1px solid $mainColor;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+
+  &:hover,
+  &:active {
+    background-color: $hoverBtnBcolor;
+    color: black;
+  }
+}
+
+@mixin submitButton {
+  border: 1px solid $mainColor;
+  background-color: $mainColor;
+  color: black;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+
+  &:hover,
+  &:active {
+    background-color: $hoverBtnBcolor;
+    border-color: $hoverBtnBcolor;
+    color: black;
+  }
+}
+

@@ -1,0 +1,9 @@
+@import'../../../styles/styles.scss';
+.form {
+  text-align: right;
+  button {
+    @include submitButton();
+    font: inherit;
+    font-weight: bold;
+  }
+}

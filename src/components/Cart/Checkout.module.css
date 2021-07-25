@@ -23,24 +23,28 @@
 }
 
 .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   gap: 1rem;
 }
 
 .actions button {
-  font: inherit;
   color: #8b8816;
   border: 1px solid #e8e12b;
   cursor: pointer;
   background-color: transparent;
   border-radius: 25px;
   padding: 0.5rem 2rem;
+  font: inherit;
+  font-weight: bold;
 }
 
-.actions button:hover,
-.actions button:active {
-  background-color: #cfca23;
+.actions button:hover, .actions button:active {
+  background-color: #bbb61f;
   color: black;
 }
 
@@ -48,20 +52,23 @@
   border: 1px solid #e8e12b;
   background-color: #e8e12b;
   color: black;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
 }
 
-.actions .submit:hover,
-.actions .submit:active {
+.actions .submit:hover, .actions .submit:active {
   background-color: #bbb61f;
   border-color: #bbb61f;
   color: black;
 }
 
 .invalid label {
-  color: #ca3e51;
+  color: #aa0b20;
 }
 
 .invalid input {
   border-color: #aa0b20;
   background-color: #ffeff1;
 }
+/*# sourceMappingURL=Checkout.module.css.map */

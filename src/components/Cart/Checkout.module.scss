@@ -1,0 +1,49 @@
+@import "../../styles/styles.scss";
+.form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow: scroll;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+
+  input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+  button {
+    @include cancelButton();
+    font: inherit;
+    font-weight: bold;
+  }
+  .submit {
+    @include submitButton();
+  }
+}
+
+.invalid {
+  label {
+    color: $inputErrorColor;
+  }
+  input {
+    border-color: $inputErrorColor;
+    background-color: $inputErrorBgColor;
+  }
+}

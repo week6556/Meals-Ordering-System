@@ -3,18 +3,19 @@
 }
 
 .form button {
-  font: inherit;
-  cursor: pointer;
-  background-color: #e8e12b;
   border: 1px solid #e8e12b;
+  background-color: #e8e12b;
   color: black;
-  padding: 0.25rem 2rem;
-  border-radius: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  font: inherit;
   font-weight: bold;
 }
 
-.form button:hover,
-.form button:active {
+.form button:hover, .form button:active {
   background-color: #bbb61f;
   border-color: #bbb61f;
+  color: black;
 }
+/*# sourceMappingURL=MealItemForm.module.css.map */
