@@ -85,7 +85,7 @@ const Checkout = (props) => {
       <div className={postalControlClasses}>
         <label htmlFor="postal">Postal Code</label>
         <input type="text" id="postal" ref={postalInputRef} />
-        {!formValidity.postalCode && <p>Please enter a valid postal code.</p>}
+        {!formValidity.postalCode && <p>Please enter a valid postal code with 4 digits.</p>}
       </div>
       <div className={cityControlClasses}>
         <label htmlFor="city">City</label>
